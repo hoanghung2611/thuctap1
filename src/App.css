@@ -1,0 +1,74 @@
+@tailwind base;
+@layer base{
+  h3{
+    @apply text-[24px];
+  }
+
+  h1{
+    @apply text-[71px];
+  }
+  h2{
+    @apply text-[42px];
+  }
+  h4{
+    @apply text-[18px];
+  }
+  h5{
+    @apply text-[16px];
+  }
+}
+
+
+
+.product-card:hover .product-detail{
+  opacity:1;
+  top:50%;
+
+}
+
+.productCart:hover .product{
+  opacity:1;
+  top:69.6%;
+
+}
+
+.setshow:hover .show{
+  display: block; 
+}
+
+
+.click:hover .clicked{
+  background-color: #f58634;
+  transition: all .3s ease 0s;
+  
+}
+
+.orange{
+  background-color: #f58634;
+
+}
+
+.presently{
+  visibility: visible;
+}
+
+/* responsive */
+.responsive-padding:before  {
+  padding-left: 40px;
+}
+@media (min-width: 1200px) {
+  .responsive-padding:before  {
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .responsive-padding:before  {
+    padding-left: 160px;
+  }
+}
+
+
+.inline-end {
+  float: inline-end;
+}   
